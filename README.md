@@ -49,7 +49,82 @@ contact: creativesimulation1@gmail.com
 
 ---
 
-## �🚀 Featured Projects
+## 🎯 What I'm Working On
+
+<div align="center">
+
+| | |
+|:---:|---|
+| 🔨 **Currently Building** | AI CodeMate v2 — real-time collaborative IDE with multi-AI providers |
+| 🧪 **Experimenting With** | LLM fine-tuning, RAG pipelines, Agentic AI workflows |
+| 📚 **Currently Learning** | Rust, Go microservices, Kubernetes orchestration |
+| 🤝 **Open To** | Full-stack roles, AI/ML engineering, Cybersecurity positions |
+| 💬 **Ask Me About** | React, Next.js, AI integrations, security architecture |
+
+</div>
+
+---
+
+## 💡 How I Build
+
+<div align="center">
+
+> *"Ship fast, iterate faster. Security isn't optional — it's foundational."*
+
+> *"Every system I build is designed to scale. Clean architecture today saves refactors tomorrow."*
+
+> *"AI should augment developers, not replace them. That's why I build tools, not toys."*
+
+</div>
+
+---
+
+## 📈 Profile Summary
+
+<div align="center">
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=krishna0605&theme=tokyonight)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishna0605&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishna0605&theme=tokyonight)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=krishna0605&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=krishna0605&theme=tokyonight&utcOffset=5.5)
+
+</div>
+
+---
+
+## 🗺️ My Development Journey
+
+```mermaid
+timeline
+    title Project Timeline — 2024 to Present
+    section 2024 Q1-Q2
+        HealthDoc 🏥 : AI medical-report platform
+                     : GPT-4o + RAG + OCR
+                     : Next.js, FastAPI, Qdrant
+    section 2024 Q3
+        VulnScanner 🛡️ : URL threat intelligence
+                       : Playwright deep crawling
+                       : WebSocket real-time scans
+    section 2024 Q4
+        AI CodeMate 🤖 : Browser-native AI IDE
+                      : Multi-provider AI assistant
+                      : Real-time collab via Yjs + Socket.IO
+    section 2025 Q1
+        ThreatForge 🔐 : ML cybersecurity platform
+                      : Malware + stego detection
+                      : YARA + Prometheus + Grafana
+    section 2025 Q2+
+        Portfolio 🌐 : creative-engineer.dev
+                    : Interactive docs + animations
+                    : Next.js + Framer Motion
+```
+
+---
+
+## 🚀 Featured Projects
 
 <div align="center">
 
@@ -132,39 +207,80 @@ contact: creativesimulation1@gmail.com
 
 ---
 
+## 🏗️ Architecture Showcase — VulnScanner
+
+*How I design production systems — example from [VulnScanner](https://vulnscanner.tech/):*
+
+```mermaid
+graph TB
+    subgraph Client["Frontend — Next.js 14"]
+        UI["Dashboard UI"]
+        Auth["Google OAuth + TOTP 2FA"]
+        WS["WebSocket Client"]
+    end
+
+    subgraph API["API Layer — Fastify"]
+        Router["Route Handler"]
+        Scanner["Scan Orchestrator"]
+        WSServer["WebSocket Server"]
+        Cron["Cron Scheduler"]
+    end
+
+    subgraph Engine["Detection Engine"]
+        Crawler["Playwright Crawler"]
+        XSS["XSS Detector"]
+        SQLi["SQL Injection Scanner"]
+        SSRF["SSRF Detector"]
+        Headers["Header Analyzer"]
+    end
+
+    subgraph Data["Data Layer"]
+        Supa["Supabase + PostgreSQL"]
+        RLS["Row-Level Security"]
+    end
+
+    subgraph Monitor["Monitoring"]
+        Sentry2["Sentry Error Tracking"]
+    end
+
+    UI --> Router
+    Auth --> Router
+    Router --> Scanner
+    Scanner --> Crawler
+    Crawler --> XSS & SQLi & SSRF & Headers
+    XSS & SQLi & SSRF & Headers --> Supa
+    Scanner --> WSServer
+    WSServer --> WS
+    Cron --> Scanner
+    Supa --> RLS
+    Router --> Sentry2
+```
+
+---
+
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- GitHub Stats -->
-<img width="60%" src="https://github-readme-stats.vercel.app/api?username=krishna0605&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
+![](https://github-readme-stats.vercel.app/api?username=krishna0605&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&include_all_commits=true&count_private=true)
 
-<br/><br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=krishna0605&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&layout=donut&langs_count=12)
 
-<!-- Top Languages -->
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishna0605&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&layout=donut&langs_count=12" alt="Top Languages"/>
+![](https://github-readme-activity-graph.vercel.app/graph?username=krishna0605&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FF6B6B&area=true&area_color=6C63FF&hide_border=true&custom_title=Contribution%20Activity)
 
-<br/><br/>
+![](https://ghchart.rshah.org/6C63FF/krishna0605)
 
-<!-- Contribution Activity Graph -->
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=krishna0605&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FF6B6B&area=true&area_color=6C63FF&hide_border=true&custom_title=📅%20Contribution%20Activity" alt="Contribution Activity Graph"/>
-
-<br/><br/>
-
-<!-- GitHub Contribution Calendar (Heatmap) -->
-<img src="https://ghchart.rshah.org/6C63FF/krishna0605" alt="Krishna's GitHub Contribution Calendar" width="98%"/>
-
-<p><i>🟢 Contribution calendar — darker squares = more commits that day</i></p>
+*🟢 Contribution calendar — darker squares = more commits that day*
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏅 GitHub Achievements
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=krishna0605&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/>
+![](https://github-profile-trophy.vercel.app/?username=krishna0605&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10)
 
 </div>
 
@@ -174,7 +290,30 @@ contact: creativesimulation1@gmail.com
 
 <div align="center">
 
-<img src="https://github-contributor-stats.vercel.app/api?username=krishna0605&limit=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&combine_all_yearly_contributions=true" alt="Top Contributed Repos"/>
+![](https://github-contributor-stats.vercel.app/api?username=krishna0605&limit=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&combine_all_yearly_contributions=true)
+
+</div>
+
+---
+
+## 📊 Weekly Development Breakdown
+
+<!--START_SECTION:waka-->
+
+```text
+TypeScript   12 hrs 45 min  ██████████░░░░░░░░░░░  42.8%
+Python        6 hrs 20 min  █████░░░░░░░░░░░░░░░░  21.3%
+JavaScript    4 hrs 15 min  ███░░░░░░░░░░░░░░░░░░  14.3%
+CSS           2 hrs 10 min  ██░░░░░░░░░░░░░░░░░░░   7.3%
+YAML          1 hr  30 min  █░░░░░░░░░░░░░░░░░░░░   5.0%
+Other         2 hrs 45 min  ██░░░░░░░░░░░░░░░░░░░   9.3%
+```
+
+<!--END_SECTION:waka-->
+
+<div align="center">
+
+*⏱️ Updated automatically via [WakaTime](https://wakatime.com/) — install the VS Code extension to see your real stats*
 
 </div>
 
