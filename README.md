@@ -1,27 +1,117 @@
-# 💫 About Me:
-👋 Hi there! I'm Krishna Kapoor, a passionate developer and lifelong learner with a diverse skill set spanning frontend, backend, and DevOps technologies. Here's a glimpse into my technical expertise:<br><br>Frontend Development:<br>🛠️ Languages & Tools: HTML, JavaScript, CSS, TypeScript<br>🎨 Styling: Tailwind, Bootstrap, SCSS<br>⚛️ Frameworks: React Native, React JS, Angular<br><br>Backend Development:<br>🛠️ Languages & Tools: Node.js<br>🧪 Python Libraries: OpenCV, Scikit-image, TensorFlow, NumPy, Pandas, Seaborn, Plotly<br><br>DevOps:<br>🚀Technologies: Docker, Kubernetes<br><br>Databases:<br>🗄️Relational: MySQL<br>📂 NoSQL: MongoDB<br><br>Programming Languages: 🐍 Python<br><br>With a solid foundation in both frontend and backend development, I enjoy creating seamless and efficient applications that provide great user experiences. My journey in tech is driven by curiosity and a desire to solve complex problems.<br><br>Feel free to connect with me to collaborate on projects, share ideas, or simply geek out over the latest in technology! 🤓
+<!-- ======================= HEADER ======================= -->
 
+<h1 align="center">Hi 👋, I'm Krishna Kapoor</h1>
+<h3 align="center">AI Engineer • Cybersecurity Builder • Full-Stack Developer</h3>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishna-kapoor-517546270/) 
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%234B275F.svg?style=for-the-badge&logo=elixir&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Hugo](https://img.shields.io/badge/Hugo-black.svg?style=for-the-badge&logo=Hugo) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=krishna0605&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=krishna0605&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=krishna0605&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=krishna0605&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=krishna0605&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<p align="center">
+Building intelligent systems where <b>AI, Security, and Cloud Engineering</b> intersect.
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=krishna0605&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+# 💫 About Me
+
+🚀 Computer Science Engineer focused on **AI platforms, cybersecurity tooling, and scalable cloud systems**.
+I design real-time applications powered by LLMs, microservices, and modern DevOps workflows.
+
+* 🔐 Working on AI security platforms & developer tools
+* 🧠 Exploring RAG pipelines, AI agents, and distributed systems
+* ⚡ Strong interest in offensive security automation & cloud infrastructure
+* 🌐 Portfolio: https://creative-engineer.dev/
+
+---
+
+# 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/krishna-kapoor-517546270/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-black?style=flat\&logo=vercel\&logoColor=white)](https://creative-engineer.dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-121013?style=flat\&logo=github\&logoColor=white)](https://github.com/krishna0605)
+
+---
+
+# 🚀 Featured Projects
+
+🔹 **AI CodeMate** — Browser-native AI IDE with collaboration & multi-provider LLMs
+https://ai-codemate-nine.vercel.app/
+
+🔹 **VulnScanner** — AI threat intelligence & vulnerability scanning platform
+https://vulnscanner.tech/
+
+🔹 **ThreatForge** — ML-powered cybersecurity analysis platform
+https://threat-forge.vercel.app/
+
+🔹 **HealthDoc** — AI medical report analysis with OCR + RAG
+https://healthdocliv.app/
+
+---
+
+# 💻 Tech Stack
+
+### 👨‍💻 Languages
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat\&logo=python\&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat\&logo=typescript\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat\&logo=javascript\&logoColor=%23F7DF1E)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat\&logo=go\&logoColor=white)
+
+### ⚛️ Frontend
+
+![Next JS](https://img.shields.io/badge/Next-black?style=flat\&logo=next.js\&logoColor=white)
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=flat\&logo=react\&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat\&logo=tailwind-css\&logoColor=white)
+
+### 🔧 Backend & Cloud
+
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat\&logo=node.js\&logoColor=white)
+![FastAPI](https://img.shields.io/badge/fastapi-009688?style=flat\&logo=fastapi\&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat\&logo=docker\&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/googlecloud-%234285F4.svg?style=flat\&logo=google-cloud\&logoColor=white)
+
+---
+
+# 📊 GitHub Analytics
+
+## 🔥 Activity & Contribution Stats
+
+![](https://github-readme-stats.vercel.app/api?username=krishna0605\&show_icons=true\&theme=tokyonight\&hide_border=true)
+![](https://github-readme-streak-stats.herokuapp.com/?user=krishna0605\&theme=tokyonight\&hide_border=true)
+
+## 📈 Most Used Languages
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=krishna0605\&layout=compact\&theme=tokyonight\&hide_border=true)
+
+## 🧠 Contribution Graph (Real-Time)
+
+![](https://github-readme-activity-graph.vercel.app/graph?username=krishna0605\&theme=tokyo-night\&hide_border=true)
+
+---
+
+# 🏆 Achievements
+
+![](https://github-profile-trophy.vercel.app/?username=krishna0605\&theme=tokyonight\&no-frame=true\&margin-w=6)
+
+---
+
+# 🔝 Active Repositories & Contributions
+
+![](https://github-contributor-stats.vercel.app/api?username=krishna0605\&limit=5\&theme=tokyonight\&combine_all_yearly_contributions=true)
+
+---
+
+# 🐍 Contribution Snake (Auto-Updated)
+
+![snake gif](https://github.com/krishna0605/krishna0605/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+# ✍️ Dev Quote
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal\&theme=tokyonight)
+
+---
+
+<p align="center">
+<img src="https://visitcount.itsvg.in/api?id=krishna0605&icon=0&color=0"/>
+</p>
+
+<!-- ⭐ Structured & optimized README layout -->
