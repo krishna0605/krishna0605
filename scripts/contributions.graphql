@@ -1,0 +1,29 @@
+query ProfileActivity($login: String!) {
+  user(login: $login) {
+    login
+    contributionsCollection {
+      startedAt
+      endedAt
+      totalCommitContributions
+      contributionCalendar {
+        totalContributions
+        weeks {
+          contributionDays {
+            date
+            weekday
+            contributionCount
+            contributionLevel
+          }
+        }
+      }
+      commitContributionsByRepository(maxRepositories: 100) {
+        repository {
+          nameWithOwner
+          url
+          isPrivate
+        }
+        contributions { totalCount }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+query ProjectActivity($login: String!) {
+  netra: repository(owner: $login, name: "Netra") { ...ProjectDetails }
+  nextstop: repository(owner: $login, name: "NextStop.AI-Web") { ...ProjectDetails }
+  nextstopDesktop: repository(owner: $login, name: "NextStop.AI-Desktop") { ...ProjectDetails }
+  codemate: repository(owner: $login, name: "AI-codemate-") { ...ProjectDetails }
+  vulnscanner: repository(owner: $login, name: "vulnscanner") { ...ProjectDetails }
+  threatforge: repository(owner: $login, name: "ThreatForge") { ...ProjectDetails }
+  healthdoc: repository(owner: $login, name: "healthdoc") { ...ProjectDetails }
+}
+
+fragment ProjectDetails on Repository {
+  nameWithOwner
+  url
+  isPrivate
+  stargazerCount
+  defaultBranchRef {
+    name
+    target {
+      ... on Commit {
+        committedDate
+        url
+        history { totalCount }
+      }
+    }
+  }
+}

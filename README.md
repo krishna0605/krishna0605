@@ -1,464 +1,200 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=%F0%9F%91%8B+Hey%2C+I'm+Krishna+Kapoor;Full-Stack+Developer+%7C+AI+Engineer+%7C+Cybersecurity" alt="Typing SVG" />
+# Krishna Kapoor
 
-<br/>
+### Software Engineering · Cybersecurity · DevSecOps
 
-<!-- Social Badges -->
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-creative--engineer.dev-6C63FF?style=for-the-badge&logoColor=white)](https://creative-engineer.dev/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Krishna_Kapoor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishna-kapoor-517546270/)
-[![Gmail](https://img.shields.io/badge/Gmail-creativesimulation1-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:creativesimulation1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-krishna0605-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/krishna0605)
+**Understanding connected code. Validating software. Engineering secure systems.**
 
-<br/>
-
-<!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=krishna0605&label=Profile%20Views&color=6C63FF&style=for-the-badge" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/krishna0605?label=Followers&style=for-the-badge&color=6C63FF&logo=github" alt="Followers" />
-<img src="https://img.shields.io/github/stars/krishna0605?label=Total%20Stars&style=for-the-badge&color=6C63FF&logo=github" alt="Stars" />
+Ahmedabad, India · [Portfolio](https://creative-engineer.dev/) · [LinkedIn](https://www.linkedin.com/in/krishna-kapoor-517546270/) · [Email](mailto:creativesimulation1@gmail.com)
 
 </div>
 
----
+## About my work
 
-## 🧑‍💻 About Me
+After studying computer science, I chose to specialize in cybersecurity because I was curious about the security behind code: how individual lines connect, how components depend on each other, and what happens when those pieces work together as a system. I see software as a puzzle whose security depends on how the pieces fit.
 
-```yaml
-name: Krishna Kapoor
-location: Pune, Maharashtra, India
-roles:
-  - Full-Stack Developer
-  - AI/ML Engineer
-  - Cybersecurity Enthusiast
-currently_building: AI-powered developer tools & security platforms
-portfolio: https://creative-engineer.dev/
-contact: creativesimulation1@gmail.com
-```
+That curiosity shapes my research direction: **understanding how a code change affects the security of connected components and the environment they run in.** I'm interested in validating open-source contributions, including those developed with AI assistance, by examining the changed code alongside the services, dependencies, and configurations it can affect.
 
-<img align="right" alt="Coding" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+I'm interested in the gaps between components as much as the code inside them: conflicting assumptions, incompatible interfaces, dependencies, permissions, and misconfiguration. My focus extends from development and pre-production testing through CI/CD, DevOps, MLOps, and production, so that code, configuration, and connected systems are validated together.
 
-- 🔭 Building **AI-powered platforms** — from browser IDEs to threat detection engines
-- 🧠 Passionate about **AI/ML**, **Cybersecurity**, and **Real-time Systems**
-- 🏗️ Love architecting **full-stack applications** with modern cloud infrastructure
-- � Check out my portfolio at **[creative-engineer.dev](https://creative-engineer.dev/)**
-- 📫 Reach me at **creativesimulation1@gmail.com**
-- ⚡ I've shipped **5 production-grade platforms** spanning AI, health-tech, and cybersecurity
+`Code validation` · `Application security` · `Secure systems integration` · `DevSecOps` · `Open-source security`
 
-<br clear="both"/>
+## 🚀 Featured projects
 
----
-
-## 🎯 What I'm Working On
-
-<div align="center">
-
-| | |
-|:---:|---|
-| 🔨 **Currently Building** | AI CodeMate v2 — real-time collaborative IDE with multi-AI providers |
-| 🧪 **Experimenting With** | LLM fine-tuning, RAG pipelines, Agentic AI workflows |
-| 📚 **Currently Learning** | Rust, Go microservices, Kubernetes orchestration |
-| 🤝 **Open To** | Full-stack roles, AI/ML engineering, Cybersecurity positions |
-| 💬 **Ask Me About** | React, Next.js, AI integrations, security architecture |
-
-</div>
-
----
-
-## 💡 How I Build
-
-<div align="center">
-
-> *"Ship fast, iterate faster. Security isn't optional — it's foundational."*
-
-> *"Every system I build is designed to scale. Clean architecture today saves refactors tomorrow."*
-
-> *"AI should augment developers, not replace them. That's why I build tools, not toys."*
-
-</div>
-
----
-
-## 📈 Profile Summary
-
-<div align="center">
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=krishna0605&theme=tokyonight)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishna0605&theme=tokyonight)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishna0605&theme=tokyonight)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=krishna0605&theme=tokyonight)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=krishna0605&theme=tokyonight&utcOffset=5.5)
-
-</div>
-
----
-
-## 🗺️ My Development Journey
-
-```mermaid
-timeline
-    title Project Timeline — 2024 to Present
-    section 2024 Q1-Q2
-        HealthDoc 🏥 : AI medical-report platform
-                     : GPT-4o + RAG + OCR
-                     : Next.js, FastAPI, Qdrant
-    section 2024 Q3
-        VulnScanner 🛡️ : URL threat intelligence
-                       : Playwright deep crawling
-                       : WebSocket real-time scans
-    section 2024 Q4
-        AI CodeMate 🤖 : Browser-native AI IDE
-                      : Multi-provider AI assistant
-                      : Real-time collab via Yjs + Socket.IO
-    section 2025 Q1
-        ThreatForge 🔐 : ML cybersecurity platform
-                      : Malware + stego detection
-                      : YARA + Prometheus + Grafana
-    section 2025 Q2+
-        Portfolio 🌐 : creative-engineer.dev
-                    : Interactive docs + animations
-                    : Next.js + Framer Motion
-```
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
+Six projects connecting software development, AI, and cybersecurity. Open the source to explore the implementation, or follow the commit counts to see the development history.
 
 <table>
 <tr>
 <td width="50%" valign="top">
+<h3>01 · Netra</h3>
+<p><sub>◈ NETWORK FORENSICS & EVIDENCE</sub></p>
+<p>A case-oriented investigation platform that turns packet captures into structured evidence, explainable detection signals, and reports with a traceable custody history.</p>
+<p><code>Python</code> <code>Django</code> <code>React</code> <code>PostgreSQL</code></p>
+<!--START_SECTION:project-netra-->
 
-### 🤖 [AI CodeMate](https://ai-codemate-nine.vercel.app/)
-**Browser-native AI IDE with real-time collaboration**
+<p><a href="https://github.com/krishna0605/Netra/commits/main/"><b>208 commits</b></a> · <a href="https://github.com/krishna0605/Netra/stargazers">★ 0</a><br><sub>Last commit: <a href="https://github.com/krishna0605/Netra/commit/92c8747e0fb5df6aa9f1fc630b0bdf63dd2f231a" title="2026-08-18T19:36:30+00:00">18 Aug 2026</a> · <code>main</code></sub></p>
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
-
-- Monaco Editor with 50+ language support & live preview
-- Multi-provider AI (Gemini, HuggingFace, Ollama, OpenRouter)
-- Real-time collab via Yjs CRDTs + Socket.IO with cursors
-- GitHub OAuth repo import, diff viewer & branch management
-
+<!--END_SECTION:project-netra-->
+<p><a href="https://github.com/krishna0605/Netra">Source code</a> · <a href="https://netra-hackathon-console-20260714.vercel.app/">Controlled demo</a></p>
 </td>
 <td width="50%" valign="top">
+<h3>02 · nextstop.ai</h3>
+<p><sub>◈ AI MEETING WORKFLOWS</sub></p>
+<p>A meeting workflow for capture, asynchronous transcription, AI analysis, and exportable artifacts, with web and desktop repositories.</p>
+<p><code>Next.js</code> <code>Node.js</code> <code>Redis</code> <code>Supabase</code></p>
+<!--START_SECTION:project-nextstop-->
 
-### 🛡️ [VulnScanner](https://vulnscanner.tech/)
-**AI-powered URL threat intelligence platform**
+<p><b>Web</b> · <a href="https://github.com/krishna0605/NextStop.AI-Web/commits/main/"><b>38 commits</b></a> · <a href="https://github.com/krishna0605/NextStop.AI-Web/stargazers">★ 0</a><br><sub>Last commit: <a href="https://github.com/krishna0605/NextStop.AI-Web/commit/857319a34ca3ed2fbf1d1b7559e525f9f88fdf2d" title="2026-04-30T05:20:22+00:00">30 Apr 2026</a> · <code>main</code></sub></p>
+<p><b>Desktop</b> · <a href="https://github.com/krishna0605/NextStop.AI-Desktop/commits/master/"><b>36 commits</b></a> · <a href="https://github.com/krishna0605/NextStop.AI-Desktop/stargazers">★ 0</a><br><sub>Last commit: <a href="https://github.com/krishna0605/NextStop.AI-Desktop/commit/4691a2827ae8de35ae4608a2c52f1c53bd5a0637" title="2026-03-30T09:22:15+00:00">30 Mar 2026</a> · <code>master</code></sub></p>
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000?style=flat-square&logo=fastify&logoColor=white)
-
-- Deep web crawling with Playwright for vulnerability detection
-- XSS, SQL injection, SSRF & insecure header detection
-- Real-time scan progress via WebSockets
-- Executive security dashboards with severity-based findings
-
+<!--END_SECTION:project-nextstop-->
+<p><a href="https://github.com/krishna0605/NextStop.AI-Web">Web source</a> · <a href="https://github.com/krishna0605/NextStop.AI-Desktop">Desktop source</a> · <a href="https://next-stop-ai-web.vercel.app/">Live app</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
+<h3>03 · AI CodeMate</h3>
+<p><sub>◈ AI-ASSISTED DEVELOPMENT</sub></p>
+<p>A browser-native AI development environment exploring AI-assisted coding, repository workflows, and real-time collaboration.</p>
+<p><code>Next.js</code> <code>TypeScript</code> <code>Monaco</code> <code>Yjs</code></p>
+<!--START_SECTION:project-codemate-->
 
-### 🔐 [ThreatForge](https://threat-forge.vercel.app/)
-**AI cybersecurity platform with ML threat detection**
+<p><a href="https://github.com/krishna0605/AI-codemate-/commits/main/"><b>500 commits</b></a> · <a href="https://github.com/krishna0605/AI-codemate-/stargazers">★ 2</a><br><sub>Last commit: <a href="https://github.com/krishna0605/AI-codemate-/commit/f51b56c34b997db1edcdfc31a58a02dd70ba16d1" title="2025-12-31T10:20:00+00:00">31 Dec 2025</a> · <code>main</code></sub></p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-- ML-based malware, steganography & network anomaly detection
-- YARA engine + threat intel feeds + geo-mapped dashboard
-- Automated PDF security report generation
-- Prometheus/Grafana monitoring + WebSocket alerts
-
+<!--END_SECTION:project-codemate-->
+<p><a href="https://github.com/krishna0605/AI-codemate-">Source code</a> · <a href="https://ai-codemate-nine.vercel.app/">Live app</a></p>
 </td>
 <td width="50%" valign="top">
+<h3>04 · VulnScanner</h3>
+<p><sub>◈ APPLICATION SECURITY</sub></p>
+<p>A security scanning dashboard for Playwright-based scans, live findings, and report review, with a separate scanner runtime.</p>
+<p><code>Next.js</code> <code>Fastify</code> <code>Playwright</code> <code>Convex</code></p>
+<!--START_SECTION:project-vulnscanner-->
 
-### 🏥 [HealthDoc](https://healthdocliv.app/)
-**AI medical-report platform with RAG Q&A**
+<p><a href="https://github.com/krishna0605/vulnscanner/commits/master/"><b>407 commits</b></a> · <a href="https://github.com/krishna0605/vulnscanner/stargazers">★ 1</a><br><sub>Last commit: <a href="https://github.com/krishna0605/vulnscanner/commit/f4982d2d679e90847bad5e6b64d0baec45f9054a" title="2026-05-13T10:19:55+00:00">13 May 2026</a> · <code>master</code></sub></p>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC382D?style=flat-square)
+<!--END_SECTION:project-vulnscanner-->
+<p><a href="https://github.com/krishna0605/vulnscanner">Source code</a> · <a href="https://vulnscanner.tech/">Live app</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>05 · ThreatForge</h3>
+<p><sub>◈ ML & THREAT DETECTION</sub></p>
+<p>A threat detection platform combining ML classifiers and YARA rules to investigate malware, hidden image data, and network anomalies.</p>
+<p><code>Python</code> <code>Flask</code> <code>scikit-learn</code> <code>YARA</code></p>
+<!--START_SECTION:project-threatforge-->
 
-- OCR upload with dual clinical/patient summaries
-- GPT-4o-mini + RAG (Qdrant) for context-aware Q&A
-- Abnormality detection (High/Low/Critical flagging)
-- Family tracking, 2FA, audit logs & cloud deployment
+<p><a href="https://github.com/krishna0605/ThreatForge/commits/main/"><b>513 commits</b></a> · <a href="https://github.com/krishna0605/ThreatForge/stargazers">★ 3</a><br><sub>Last commit: <a href="https://github.com/krishna0605/ThreatForge/commit/944e74e8ae0fe4f41eee6e22929a9c4a943d2aaf" title="2026-07-24T17:26:52+00:00">24 Jul 2026</a> · <code>main</code></sub></p>
 
+<!--END_SECTION:project-threatforge-->
+<p><a href="https://github.com/krishna0605/ThreatForge">Source code</a> · <a href="https://threat-forge.vercel.app/">Live app</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>06 · HealthDoc</h3>
+<p><sub>◈ DOCUMENT INTELLIGENCE</sub></p>
+<p>A medical-report exploration platform combining OCR, patient-friendly summaries, and retrieval-augmented questions and answers.</p>
+<p><code>Next.js</code> <code>FastAPI</code> <code>OpenAI</code> <code>Qdrant</code></p>
+<!--START_SECTION:project-healthdoc-->
+
+<p><a href="https://github.com/krishna0605/healthdoc/commits/main/"><b>162 commits</b></a> · <a href="https://github.com/krishna0605/healthdoc/stargazers">★ 1</a><br><sub>Last commit: <a href="https://github.com/krishna0605/healthdoc/commit/8afe62e9fd2d44ad69861dd47aacb150fd58ffc4" title="2026-03-10T07:39:53+00:00">10 Mar 2026</a> · <code>main</code></sub></p>
+
+<!--END_SECTION:project-healthdoc-->
+<p><a href="https://github.com/krishna0605/healthdoc">Source code</a> · <a href="https://healthdocliv.app/">Live app</a></p>
 </td>
 </tr>
 </table>
 
-</div>
+<!--START_SECTION:updated-->
 
----
+<sub>Repository data refreshed 2026-09-09 06:08 UTC. Commit counts include all authors on each default branch. Last commit dates link to the changes.</sub>
 
-## 🏗️ Architecture Showcase — VulnScanner
+<!--END_SECTION:updated-->
 
-*How I design production systems — example from [VulnScanner](https://vulnscanner.tech/):*
+## 🔬 Research areas
 
-```mermaid
-graph TB
-    subgraph Client["Frontend — Next.js 14"]
-        UI["Dashboard UI"]
-        Auth["Google OAuth + TOTP 2FA"]
-        WS["WebSocket Client"]
-    end
+My central question: **How can DevSecOps help uncover security weaknesses between components that pass their individual checks, before those components reach production together?**
 
-    subgraph API["API Layer — Fastify"]
-        Router["Route Handler"]
-        Scanner["Scan Orchestrator"]
-        WSServer["WebSocket Server"]
-        Cron["Cron Scheduler"]
-    end
+| Research area | Questions I want to investigate |
+| :--- | :--- |
+| **Contribution impact & code validation** | How can we trace the direct and indirect effects of a contribution, then validate the affected code, interfaces, dependencies, and security assumptions before integration? |
+| **Component interactions & hidden dependencies** | Can a shared library, gateway, identity service, or other third component create a security weakness between services that appear unrelated or work correctly in isolation? |
+| **Cross-stack compatibility & configuration** | Where might languages, frameworks, or services disagree about data formats, input validation, identity, or permissions? How can we test those boundaries and their configuration together? |
+| **Pre-production system validation** | How can integration tests, threat modeling, and adversarial test cases evaluate the connected system in an isolated environment that represents its intended production configuration? |
+| **DevSecOps, MLOps & deployment environments** | How can pipelines check application code alongside infrastructure, secrets, network access, dependency versions, and runtime settings, and make unresolved findings visible before release? |
+| **Version changes & continuous feedback** | How can supported, patched technology stacks be kept compatible as they evolve? How can runtime findings improve the checks applied to later changes and upgrades? |
 
-    subgraph Engine["Detection Engine"]
-        Crawler["Playwright Crawler"]
-        XSS["XSS Detector"]
-        SQLi["SQL Injection Scanner"]
-        SSRF["SSRF Detector"]
-        Headers["Header Analyzer"]
-    end
+I'm developing this research direction through hands-on projects, reproducible experiments, clear evaluation criteria, and documented limitations.
 
-    subgraph Data["Data Layer"]
-        Supa["Supabase + PostgreSQL"]
-        RLS["Row-Level Security"]
-    end
+### 💡 An idea I want to explore
 
-    subgraph Monitor["Monitoring"]
-        Sentry2["Sentry Error Tracking"]
-    end
+**A DevSecOps pipeline that validates how a system fits together.**
 
-    UI --> Router
-    Auth --> Router
-    Router --> Scanner
-    Scanner --> Crawler
-    Crawler --> XSS & SQLi & SSRF & Headers
-    XSS & SQLi & SSRF & Headers --> Supa
-    Scanner --> WSServer
-    WSServer --> WS
-    Cron --> Scanner
-    Supa --> RLS
-    Router --> Sentry2
-```
+I want to investigate whether a pipeline can identify risks that individual code scans miss by connecting code changes with component relationships and the intended deployment environment. For example, when a Python service and a Java service communicate through a shared gateway, could differences in validation, identity handling, or configuration create an unsafe interaction?
 
----
+The pipeline I would like to prototype would:
 
-## 📊 GitHub Analytics
+1. **Map the connections:** trace affected services, interfaces, dependencies, and shared components, including indirect relationships.
+2. **Test the interactions:** check assumptions about data, authentication, permissions, and failure handling across those connections.
+3. **Validate the target environment:** examine configuration, infrastructure, runtime versions, and dependencies; evaluate patches and upgrades for compatibility before rollout.
+4. **Inform the release decision:** report what was tested, what failed, and what remains uncertain, with release gates for unresolved security findings.
 
-<div align="center">
+My aim is to explore what evidence such a pipeline can provide about the security of a connected system, and where its checks still fall short. This is a research idea I want to prototype and evaluate.
 
-![](https://github-readme-stats.vercel.app/api?username=krishna0605&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&include_all_commits=true&count_private=true)
+## ⚙️ Engineering toolkit
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=krishna0605&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&layout=donut&langs_count=12)
+| Area | Technologies |
+| :--- | :--- |
+| Languages | TypeScript, JavaScript, Python, SQL |
+| Applications | React, Next.js, Node.js, FastAPI, Django |
+| AI & data | LLM integrations, RAG, scikit-learn, Qdrant |
+| Infrastructure | PostgreSQL, Supabase, Redis, Convex, Docker, GitHub Actions |
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=krishna0605&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FF6B6B&area=true&area_color=6C63FF&hide_border=true&custom_title=Contribution%20Activity)
+**Practices I’m exploring:** change-impact analysis, code validation, threat modeling, integration security testing, dependency mapping, configuration auditing, environment validation, CI/CD security checks, and observability.
 
-![](https://ghchart.rshah.org/6C63FF/krishna0605)
+## 🟩 GitHub activity
 
-*🟢 Contribution calendar — darker squares = more commits that day*
+<a href="https://github.com/krishna0605?tab=overview">
+  <img src="assets/contributions.svg" alt="GitHub's green contribution calendar showing my daily activity, total contributions, commits, active days, and busiest-day count" width="100%">
+</a>
 
-</div>
+<sub>One square per day; stronger green means more contributions. Click the chart to explore activity on GitHub. Chart and project statistics refresh every six hours.</sub>
 
----
+<details>
+<summary>Most active repositories</summary>
 
-## 🏅 GitHub Achievements
+<!--START_SECTION:activity-->
 
-<div align="center">
+Public repositories ranked by commit contributions, 2025-09-06 to 2026-09-09. Profile automation is excluded.
 
-![](https://github-profile-trophy.vercel.app/?username=krishna0605&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10)
+| Repository | Commit contributions |
+| :--- | ---: |
+| [krishna0605/Netra](https://github.com/krishna0605/Netra) | 233 |
+| [krishna0605/healthdoc](https://github.com/krishna0605/healthdoc) | 161 |
+| [krishna0605/AI-codemate-](https://github.com/krishna0605/AI-codemate-) | 154 |
+| [krishna0605/vulnscanner](https://github.com/krishna0605/vulnscanner) | 99 |
+| [krishna0605/ThreatForge](https://github.com/krishna0605/ThreatForge) | 97 |
+| [krishna0605/supabase-harbor](https://github.com/krishna0605/supabase-harbor) | 77 |
 
-</div>
+<!--END_SECTION:activity-->
 
----
-
-## 🔝 Most Active Repositories
-
-<div align="center">
-
-![](https://github-contributor-stats.vercel.app/api?username=krishna0605&limit=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&combine_all_yearly_contributions=true)
-
-</div>
-
----
-
-## 📊 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-
-```text
-TypeScript   12 hrs 45 min  ██████████░░░░░░░░░░░  42.8%
-Python        6 hrs 20 min  █████░░░░░░░░░░░░░░░░  21.3%
-JavaScript    4 hrs 15 min  ███░░░░░░░░░░░░░░░░░░  14.3%
-CSS           2 hrs 10 min  ██░░░░░░░░░░░░░░░░░░░   7.3%
-YAML          1 hr  30 min  █░░░░░░░░░░░░░░░░░░░░   5.0%
-Other         2 hrs 45 min  ██░░░░░░░░░░░░░░░░░░░   9.3%
-```
-
-<!--END_SECTION:waka-->
-
-<div align="center">
-
-*⏱️ Updated automatically via [WakaTime](https://wakatime.com/) — install the VS Code extension to see your real stats*
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### 💻 Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
-
-### 🎨 Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-
-### ⚙️ Backend & Cloud
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000?style=for-the-badge&logo=flask&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-
-### 🗄️ Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
-![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apache-cassandra&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### 🤖 AI / ML
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-### 🔧 DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-### 🖥️ Platforms & IDEs
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000?style=for-the-badge&logo=pycharm&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
-
-### 📊 Data & Analytics
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-</div>
-
----
+</details>
 
 ## 🎓 Certifications
 
-<div align="center">
+| Certification | Issuer |
+| :--- | :--- |
+| Hugging Face Agent Course | Hugging Face |
+| Cybersecurity Hands-on Workshop | NIT Goa & NFSU Goa |
+| Google Cloud Cybersecurity Certificate | Google Cloud |
+| Google Cloud Computing Foundations | Google Cloud |
+| Python Essentials 1 | Cisco |
+| Cyber Threat Management | Cisco |
+| 100x Devs Cohort 3 | 100xDevs |
 
-| Badge | Certification | Issuer |
-|:---:|---|---|
-| 🤗 | **Hugging Face Agent Course** | Hugging Face |
-| 🛡️ | **Cybersecurity Hands-on Workshop** | NIT Goa & NFSU Goa |
-| ☁️ | **Google Cloud Cybersecurity Certificate** | Google Cloud |
-| ☁️ | **Google Cloud Computing Foundations** | Google Cloud |
-| 🐍 | **Python Essentials 1** | Cisco |
-| 🔒 | **Cyber Threat Management** | Cisco |
-| 💻 | **100x Devs Cohort 3** | 100xDevs |
+## 🤝 Let's connect
 
-</div>
+Open to software engineering, cybersecurity, and DevSecOps opportunities, and collaboration on code validation, open-source contribution security, and secure systems integration.
 
----
-
-## � Let's Connect
-
-<div align="center">
-
-| | |
-|:---:|:---:|
-| 🌐 **Portfolio** | [creative-engineer.dev](https://creative-engineer.dev/) |
-| � **LinkedIn** | [Krishna Kapoor](https://www.linkedin.com/in/krishna-kapoor-517546270/) |
-| 📧 **Email** | [creativesimulation1@gmail.com](mailto:creativesimulation1@gmail.com) |
-
-
-<br/>
-
-### ✍️ Dev Quote of the Day
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-<br/>
-
-### 💬 *"Building intelligent systems that make the web safer and development faster."*
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Visit_My_Portfolio-6C63FF?style=for-the-badge&logo=safari&logoColor=white)](https://creative-engineer.dev/)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:creativesimulation1@gmail.com)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" width="100%"/>
-
-</div>
+[Explore my portfolio](https://creative-engineer.dev/) · [Connect on LinkedIn](https://www.linkedin.com/in/krishna-kapoor-517546270/) · [Get in touch](mailto:creativesimulation1@gmail.com)
