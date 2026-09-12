@@ -238,7 +238,7 @@ It consumes what SAST, SCA, and IaC tools already produce rather than replacing 
 
 <!--START_SECTION:activity-->
 
-Public repositories ranked by commit contributions, 2025-09-06 to 2026-09-12. Profile automation is excluded.
+Public repositories ranked by commit contributions, 2025-09-07 to 2026-09-12. Profile automation is excluded.
 
 | Repository | Commit contributions |
 | :--- | ---: |
