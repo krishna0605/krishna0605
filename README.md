@@ -22,106 +22,91 @@ I'm particularly interested in validating open-source contributions — includin
 
 ## <img src="assets/icons/projects.svg" width="19" alt=""> Featured projects
 
-### <img src="assets/marks/01.svg" width="64" alt="01"> Netra
-
-<sub>NETWORK FORENSICS &amp; EVIDENCE</sub>
-
-A case-oriented investigation platform that turns packet captures into structured evidence, explainable detection signals, and reports with a traceable custody history.
-
-`Python` `Django` `React` `PostgreSQL`
-
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><img src="assets/marks/01.svg" width="64" alt="01"> Netra</h3>
+<p><sub>NETWORK FORENSICS &amp; EVIDENCE</sub></p>
+<p>A case-oriented investigation platform that turns packet captures into structured evidence, explainable detection signals, and reports with a traceable custody history.</p>
+<p><code>Python</code> <code>Django</code> <code>React</code> <code>PostgreSQL</code></p>
 <!--START_SECTION:project-netra-->
 
 <p><a href="https://github.com/krishna0605/Netra/commits/main/"><b>208 commits</b></a> · <a href="https://github.com/krishna0605/Netra/stargazers">★ 0</a><br><sub>Last commit: <a href="https://github.com/krishna0605/Netra/commit/92c8747e0fb5df6aa9f1fc630b0bdf63dd2f231a" title="2026-08-18T19:36:30+00:00">18 Aug 2026</a> · <code>main</code></sub></p>
 
 <!--END_SECTION:project-netra-->
-
-[Source code](https://github.com/krishna0605/Netra) &middot; [Controlled demo](https://netra-hackathon-console-20260714.vercel.app/)
-
-### <img src="assets/marks/02.svg" width="64" alt="02"> nextstop.ai
-
-<sub>AI MEETING WORKFLOWS</sub>
-
-A meeting workflow for capture, asynchronous transcription, AI analysis, and exportable artifacts, with web and desktop repositories.
-
-`Next.js` `Node.js` `Redis` `Supabase`
-
+<p><a href="https://github.com/krishna0605/Netra">Source code</a> &middot; <a href="https://netra-hackathon-console-20260714.vercel.app/">Controlled demo</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><img src="assets/marks/02.svg" width="64" alt="02"> nextstop.ai</h3>
+<p><sub>AI MEETING WORKFLOWS</sub></p>
+<p>A meeting workflow for capture, asynchronous transcription, AI analysis, and exportable artifacts, with web and desktop repositories.</p>
+<p><code>Next.js</code> <code>Node.js</code> <code>Redis</code> <code>Supabase</code></p>
 <!--START_SECTION:project-nextstop-->
 
 <p><b>Web</b> · <a href="https://github.com/krishna0605/NextStop.AI-Web/commits/main/"><b>38 commits</b></a> · <a href="https://github.com/krishna0605/NextStop.AI-Web/stargazers">★ 0</a><br><sub>Last commit: <a href="https://github.com/krishna0605/NextStop.AI-Web/commit/857319a34ca3ed2fbf1d1b7559e525f9f88fdf2d" title="2026-04-30T05:20:22+00:00">30 Apr 2026</a> · <code>main</code></sub></p>
 <p><b>Desktop</b> · <a href="https://github.com/krishna0605/NextStop.AI-Desktop/commits/master/"><b>36 commits</b></a> · <a href="https://github.com/krishna0605/NextStop.AI-Desktop/stargazers">★ 0</a><br><sub>Last commit: <a href="https://github.com/krishna0605/NextStop.AI-Desktop/commit/4691a2827ae8de35ae4608a2c52f1c53bd5a0637" title="2026-03-30T09:22:15+00:00">30 Mar 2026</a> · <code>master</code></sub></p>
 
 <!--END_SECTION:project-nextstop-->
-
-[Web source](https://github.com/krishna0605/NextStop.AI-Web) &middot; [Desktop source](https://github.com/krishna0605/NextStop.AI-Desktop) &middot; [Live app](https://next-stop-ai-web.vercel.app/)
-
-### <img src="assets/marks/03.svg" width="64" alt="03"> AI CodeMate
-
-<sub>AI-ASSISTED DEVELOPMENT</sub>
-
-A browser-native AI development environment exploring AI-assisted coding, repository workflows, and real-time collaboration.
-
-`Next.js` `TypeScript` `Monaco` `Yjs`
-
+<p><a href="https://github.com/krishna0605/NextStop.AI-Web">Web source</a> &middot; <a href="https://github.com/krishna0605/NextStop.AI-Desktop">Desktop source</a> &middot; <a href="https://next-stop-ai-web.vercel.app/">Live app</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><img src="assets/marks/03.svg" width="64" alt="03"> AI CodeMate</h3>
+<p><sub>AI-ASSISTED DEVELOPMENT</sub></p>
+<p>A browser-native AI development environment exploring AI-assisted coding, repository workflows, and real-time collaboration.</p>
+<p><code>Next.js</code> <code>TypeScript</code> <code>Monaco</code> <code>Yjs</code></p>
 <!--START_SECTION:project-codemate-->
 
 <p><a href="https://github.com/krishna0605/AI-codemate-/commits/main/"><b>500 commits</b></a> · <a href="https://github.com/krishna0605/AI-codemate-/stargazers">★ 2</a><br><sub>Last commit: <a href="https://github.com/krishna0605/AI-codemate-/commit/f51b56c34b997db1edcdfc31a58a02dd70ba16d1" title="2025-12-31T10:20:00+00:00">31 Dec 2025</a> · <code>main</code></sub></p>
 
 <!--END_SECTION:project-codemate-->
-
-[Source code](https://github.com/krishna0605/AI-codemate-) &middot; [Live app](https://ai-codemate-nine.vercel.app/)
-
-### <img src="assets/marks/04.svg" width="64" alt="04"> VulnScanner
-
-<sub>APPLICATION SECURITY</sub>
-
-A security scanning dashboard for Playwright-based scans, live findings, and report review, with a separate scanner runtime.
-
-`Next.js` `Fastify` `Playwright` `Convex`
-
+<p><a href="https://github.com/krishna0605/AI-codemate-">Source code</a> &middot; <a href="https://ai-codemate-nine.vercel.app/">Live app</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><img src="assets/marks/04.svg" width="64" alt="04"> VulnScanner</h3>
+<p><sub>APPLICATION SECURITY</sub></p>
+<p>A security scanning dashboard for Playwright-based scans, live findings, and report review, with a separate scanner runtime.</p>
+<p><code>Next.js</code> <code>Fastify</code> <code>Playwright</code> <code>Convex</code></p>
 <!--START_SECTION:project-vulnscanner-->
 
 <p><a href="https://github.com/krishna0605/vulnscanner/commits/master/"><b>407 commits</b></a> · <a href="https://github.com/krishna0605/vulnscanner/stargazers">★ 1</a><br><sub>Last commit: <a href="https://github.com/krishna0605/vulnscanner/commit/f4982d2d679e90847bad5e6b64d0baec45f9054a" title="2026-05-13T10:19:55+00:00">13 May 2026</a> · <code>master</code></sub></p>
 
 <!--END_SECTION:project-vulnscanner-->
-
-[Source code](https://github.com/krishna0605/vulnscanner) &middot; [Live app](https://vulnscanner.tech/)
-
-### <img src="assets/marks/05.svg" width="64" alt="05"> ThreatForge
-
-<sub>ML &amp; THREAT DETECTION</sub>
-
-A threat detection platform combining ML classifiers and YARA rules to investigate malware, hidden image data, and network anomalies.
-
-`Python` `Flask` `scikit-learn` `YARA`
-
+<p><a href="https://github.com/krishna0605/vulnscanner">Source code</a> &middot; <a href="https://vulnscanner.tech/">Live app</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><img src="assets/marks/05.svg" width="64" alt="05"> ThreatForge</h3>
+<p><sub>ML &amp; THREAT DETECTION</sub></p>
+<p>A threat detection platform combining ML classifiers and YARA rules to investigate malware, hidden image data, and network anomalies.</p>
+<p><code>Python</code> <code>Flask</code> <code>scikit-learn</code> <code>YARA</code></p>
 <!--START_SECTION:project-threatforge-->
 
 <p><a href="https://github.com/krishna0605/ThreatForge/commits/main/"><b>513 commits</b></a> · <a href="https://github.com/krishna0605/ThreatForge/stargazers">★ 3</a><br><sub>Last commit: <a href="https://github.com/krishna0605/ThreatForge/commit/944e74e8ae0fe4f41eee6e22929a9c4a943d2aaf" title="2026-07-24T17:26:52+00:00">24 Jul 2026</a> · <code>main</code></sub></p>
 
 <!--END_SECTION:project-threatforge-->
-
-[Source code](https://github.com/krishna0605/ThreatForge) &middot; [Live app](https://threat-forge.vercel.app/)
-
-### <img src="assets/marks/06.svg" width="64" alt="06"> HealthDoc
-
-<sub>DOCUMENT INTELLIGENCE</sub>
-
-A medical-report exploration platform combining OCR, patient-friendly summaries, and retrieval-augmented questions and answers.
-
-`Next.js` `FastAPI` `OpenAI` `Qdrant`
-
+<p><a href="https://github.com/krishna0605/ThreatForge">Source code</a> &middot; <a href="https://threat-forge.vercel.app/">Live app</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><img src="assets/marks/06.svg" width="64" alt="06"> HealthDoc</h3>
+<p><sub>DOCUMENT INTELLIGENCE</sub></p>
+<p>A medical-report exploration platform combining OCR, patient-friendly summaries, and retrieval-augmented questions and answers.</p>
+<p><code>Next.js</code> <code>FastAPI</code> <code>OpenAI</code> <code>Qdrant</code></p>
 <!--START_SECTION:project-healthdoc-->
 
 <p><a href="https://github.com/krishna0605/healthdoc/commits/main/"><b>162 commits</b></a> · <a href="https://github.com/krishna0605/healthdoc/stargazers">★ 1</a><br><sub>Last commit: <a href="https://github.com/krishna0605/healthdoc/commit/8afe62e9fd2d44ad69861dd47aacb150fd58ffc4" title="2026-03-10T07:39:53+00:00">10 Mar 2026</a> · <code>main</code></sub></p>
 
 <!--END_SECTION:project-healthdoc-->
-
-[Source code](https://github.com/krishna0605/healthdoc) &middot; [Live app](https://healthdocliv.app/)
+<p><a href="https://github.com/krishna0605/healthdoc">Source code</a> &middot; <a href="https://healthdocliv.app/">Live app</a></p>
+</td>
+</tr>
+</table>
 
 <!--START_SECTION:updated-->
 
-<sub>Repository data refreshed 2026-09-12 06:32 UTC. Commit counts include all authors on each default branch. Last commit dates link to the changes.</sub>
+<sub>Repository data refreshed 2026-09-12 06:38 UTC. Commit counts include all authors on each default branch. Last commit dates link to the changes.</sub>
 
 <!--END_SECTION:updated-->
 
@@ -140,8 +125,6 @@ A medical-report exploration platform combining OCR, patient-friendly summaries,
 **2022 &mdash; the fork.** Pilot, or computer science. I chose computer science, because the part of aviation I kept returning to was the system underneath it &mdash; and that part is code.
 
 **2022&ndash;2026 &mdash; B.Tech, Computer Science and Engineering.** The degree followed the curiosity rather than the other way round.
-
-> The board made me choose one language. The simulators had already chosen for me: Prism3D is C++ end to end, Microsoft Flight Simulator's modules compile from C and C++, and X-Plane's SDK is a C API. The language I was examined in and the language I worked in were never the same thing.
 
 <details>
 <summary>What I built, engine by engine &mdash; and what taught me the pipeline</summary>
@@ -255,7 +238,7 @@ It consumes what SAST, SCA, and IaC tools already produce rather than replacing 
 
 <!--START_SECTION:activity-->
 
-Public repositories ranked by commit contributions, 2025-09-07 to 2026-09-12. Profile automation is excluded.
+Public repositories ranked by commit contributions, 2025-09-06 to 2026-09-12. Profile automation is excluded.
 
 | Repository | Commit contributions |
 | :--- | ---: |
