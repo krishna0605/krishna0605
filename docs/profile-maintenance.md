@@ -1,10 +1,14 @@
 # Profile maintenance
 
-The README uses native GitHub Markdown/HTML and repository-hosted SVGs. It has no animated images, weekly time tracking, pie charts, remote analytics cards, or trophy-service dependencies.
+The README uses native GitHub Markdown/HTML and repository-hosted SVGs. It has no weekly time tracking, pie charts, remote analytics cards, or trophy-service dependencies.
+
+It does use animation, which reverses an earlier decision in this file. The objection to animated profile READMEs is that they are usually remote-hosted, uncacheable and decorative; these are none of those. `assets/hero.svg` and `assets/journey.svg` animate with CSS keyframes declared inside the file itself, served from this repository, and every animated asset wraps its keyframes in `@media (prefers-reduced-motion: reduce)` so a reader who has asked their system for less motion sees a still image. No GIFs: a GIF cannot switch palettes for dark mode, cannot honour that preference, and costs two orders of magnitude more bytes for the same result.
 
 ## Contribution data
 
-`scripts/contributions.graphql` queries GitHub's `user.contributionsCollection` for the past year. `scripts/update_activity.py` creates one green contribution heatmap (`assets/contributions.svg`) with light/dark colors inside the SVG. Only one image is embedded in the README.
+`scripts/contributions.graphql` queries GitHub's `user.contributionsCollection` for the past year. `scripts/update_activity.py` creates one green contribution heatmap (`assets/contributions.svg`) with light/dark colors inside the SVG. The README also embeds `assets/hero.svg`, `assets/journey.svg`, nine section glyphs under `assets/icons/` and six project marks under `assets/marks/`. Those carry no live data, so they are committed once rather than rewritten on every refresh, which keeps the scheduled commit diff to the chart and the marker blocks.
+
+Colour tokens for every generated asset live in `scripts/theme.py`, so the chart, the hero and the journey profile resolve the same palette. Two rules that file encodes: the accent stays GitHub's contribution green so the calendar belongs to the page, and amber means risk and nothing else. Embedded SVGs cannot fetch a webfont, so all text uses the system stacks pinned in that module.
 
 `scripts/projects.graphql` fetches seven public repositories for six project cards. NextStop.ai has separate web and desktop statistics. Each displays default-branch history counts, stars, the default branch, and a linked head commit date in UTC. Counts include all authors and are not limited to the profile's contribution year. The global refresh timestamp is separate from each project's last commit date; metadata changes and stars do not make a project appear recently coded.
 

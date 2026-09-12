@@ -125,10 +125,12 @@ class ActivityTests(unittest.TestCase):
         svg = activity.render_svg(data, "light", "test")
         self.assertIn("#40c463", svg)
         self.assertIn("#39d353", svg)
-        self.assertIn("Active days", svg)
-        self.assertIn("Most in one day", svg)
-        self.assertNotIn("Pull requests", svg)
-        self.assertNotIn("Reviews", svg)
+        # Metric labels are drawn as tracked capitals, so assert on meaning, not casing.
+        lowered = svg.lower()
+        self.assertIn("active days", lowered)
+        self.assertIn("most in one day", lowered)
+        self.assertNotIn("pull requests", lowered)
+        self.assertNotIn("reviews", lowered)
 
 def project_fixture():
     return {"data": {key: {
@@ -206,6 +208,59 @@ class ProjectStatsTests(unittest.TestCase):
             self.assertIn("<b>Desktop</b>", result)
             self.assertNotIn("START_SECTION:days", result)
             self.assertEqual(len(list((root / "assets").glob("*.svg"))), 1)
+
+
+class AssetTests(unittest.TestCase):
+    """Guards for the committed SVGs the README embeds.
+
+    An embedded SVG is rendered in a sandbox: no scripts run and no external
+    resource is fetched. These assert the assets stay inside that box and keep
+    working for both themes and for readers who have asked for less motion.
+    """
+
+    def assets(self):
+        return sorted(p for p in (activity.ROOT / "assets").rglob("*.svg"))
+
+    def test_assets_exist_and_are_wellformed(self):
+        found = self.assets()
+        self.assertGreaterEqual(len(found), 18, "expected the hero, journey, chart, glyphs and marks")
+        for path in found:
+            with self.subTest(asset=path.name):
+                ET.fromstring(path.read_text(encoding="utf-8"))
+
+    def test_assets_carry_no_scripts_or_external_references(self):
+        for path in self.assets():
+            body = path.read_text(encoding="utf-8")
+            with self.subTest(asset=path.name):
+                self.assertNotIn("<script", body)
+                self.assertNotIn("@font-face", body)
+                # url() would be an external fetch, which a sandboxed SVG cannot make.
+                self.assertNotIn("url(http", body)
+
+    def test_assets_define_both_themes(self):
+        for path in self.assets():
+            body = path.read_text(encoding="utf-8")
+            with self.subTest(asset=path.name):
+                self.assertIn("prefers-color-scheme:dark", body.replace(" ", ""))
+
+    def test_animated_assets_stop_for_reduced_motion(self):
+        animated = [p for p in self.assets() if "@keyframes" in p.read_text(encoding="utf-8")]
+        self.assertTrue(animated, "the hero and journey assets should animate")
+        for path in animated:
+            body = path.read_text(encoding="utf-8").replace(" ", "")
+            with self.subTest(asset=path.name):
+                self.assertIn("prefers-reduced-motion:reduce", body)
+
+    def test_hero_and_journey_stay_inside_their_viewbox(self):
+        for name, width, height in (("hero.svg", 900, 250), ("journey.svg", 860, 236)):
+            root = ET.fromstring((activity.ROOT / "assets" / name).read_text(encoding="utf-8"))
+            with self.subTest(asset=name):
+                self.assertEqual(root.get("viewBox"), f"0 0 {width} {height}")
+                for rect in root.iter("{http://www.w3.org/2000/svg}rect"):
+                    if rect.get("width") == "100%" or rect.get("x") is None:
+                        continue
+                    self.assertLessEqual(float(rect.get("x")) + float(rect.get("width")), width)
+                    self.assertLessEqual(float(rect.get("y")) + float(rect.get("height")), height)
 
 
 if __name__ == "__main__":

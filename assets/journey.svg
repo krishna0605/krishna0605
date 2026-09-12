@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 236" role="img" aria-labelledby="t d">
+<title id="t">From 2018 to a computer science degree</title>
+<desc id="d">A climb from writing programs in 2018, to opening the simulator files in 2020, to shipping into the engine by 2021, to reading the engine&#8217;s own language by 2022, and a dashed branch marking the aeronautics path not taken.</desc>
+<style>svg{--paper:#ffffff;--ink:#14181d;--dim:#6a737f;--rule:#dde1e7;--rule-soft:#eef0f3;--line:#9aa4b0;--node:#ffffff;--grid:#eef1f5;--accent:#1a7f37;--warn:#9a6700}@media(prefers-color-scheme:dark){svg{--paper:#0d1117;--ink:#e9edf2;--dim:#8b95a2;--rule:#2a313a;--rule-soft:#20262e;--line:#56636f;--node:#151b23;--grid:#171e26;--accent:#3fb950;--warn:#d29922}}.end{animation:end 3.4s ease-in-out infinite}@keyframes end{0%,100%{opacity:.45}50%{opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="0" y="0" width="860" height="236" fill="var(--paper)"/>
+<rect x="210" y="54" width="620" height="1" fill="var(--rule-soft)"/><text x="200" y="58" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="var(--dim)">reading the engine&#8217;s own language</text>
+<rect x="210" y="98" width="620" height="1" fill="var(--rule-soft)"/><text x="200" y="102" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="var(--dim)">shipping into the engine</text>
+<rect x="210" y="142" width="620" height="1" fill="var(--rule-soft)"/><text x="200" y="146" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="var(--dim)">opening the files</text>
+<rect x="210" y="186" width="620" height="1" fill="var(--rule-soft)"/><text x="200" y="190" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="var(--dim)">writing programs</text>
+<rect x="210" y="30" width="1" height="166" fill="var(--rule)"/>
+<path d="M655 54 L775 108" stroke="var(--dim)" stroke-width="1.2" stroke-dasharray="4 4" fill="none" opacity=".65"/>
+<circle cx="775" cy="108" r="5" fill="var(--paper)" stroke="var(--dim)" stroke-width="1.4"/>
+<text x="775" y="128" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="1.2" fill="var(--dim)">aeronautics &#8212; not taken</text>
+<polyline points="250,186 390,142 520,98 655,54 800,42" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="250" cy="186" r="5" fill="var(--paper)" stroke="var(--accent)" stroke-width="1.8"/>
+<circle cx="390" cy="142" r="5" fill="var(--paper)" stroke="var(--accent)" stroke-width="1.8"/>
+<circle cx="520" cy="98" r="5" fill="var(--paper)" stroke="var(--accent)" stroke-width="1.8"/>
+<circle cx="655" cy="54" r="5" fill="var(--paper)" stroke="var(--accent)" stroke-width="1.8"/>
+<circle class="end" cx="800" cy="42" r="6.5" fill="var(--accent)"/>
+<text x="250" y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="1.6" font-weight="600" fill="var(--dim)">2018</text>
+<text x="390" y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="1.6" font-weight="600" fill="var(--dim)">2020</text>
+<text x="520" y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="1.6" font-weight="600" fill="var(--dim)">2021</text>
+<text x="655" y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="1.6" font-weight="600" fill="var(--dim)">2022</text>
+<text x="800" y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="1.6" font-weight="600" fill="var(--dim)">2026</text>
+</svg>

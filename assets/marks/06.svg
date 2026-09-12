@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 28" role="img" aria-labelledby="t d">
+<title id="t">Project 06</title>
+<desc id="d">Project 06, HealthDoc</desc>
+<style>svg{--paper:#ffffff;--ink:#14181d;--dim:#6a737f;--rule:#dde1e7;--rule-soft:#eef0f3;--line:#9aa4b0;--node:#ffffff;--grid:#eef1f5;--accent:#1a7f37;--warn:#9a6700}@media(prefers-color-scheme:dark){svg{--paper:#0d1117;--ink:#e9edf2;--dim:#8b95a2;--rule:#2a313a;--rule-soft:#20262e;--line:#56636f;--node:#151b23;--grid:#171e26;--accent:#3fb950;--warn:#d29922}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<text x="0" y="22" font-family="Iowan Old Style,Palatino Linotype,Palatino,Georgia,serif" font-size="26" fill="var(--accent)">06</text>
+<rect x="36" y="13.5" width="24" height="1" fill="var(--line)"/>
+<circle cx="36" cy="14" r="2.4" fill="var(--paper)" stroke="var(--accent)" stroke-width="1.2"/>
+<circle cx="48" cy="14" r="2.4" fill="var(--paper)" stroke="var(--accent)" stroke-width="1.2"/>
+<circle cx="60" cy="14" r="2.4" fill="var(--accent)"/>
+</svg>

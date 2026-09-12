@@ -15,21 +15,19 @@ import sys
 import time
 from urllib.parse import quote
 
+try:  # imported as part of the package (tests)
+    from scripts import theme as tokens
+except ImportError:  # run directly, with scripts/ on sys.path
+    import theme as tokens
+
+THEMES = tokens.THEMES
+CHART_VARS = ("bg", "border", "text", "muted", "accent", "rule", "ink", "dim")
+
 
 ROOT = Path(__file__).resolve().parents[1]
 START = "<!--START_SECTION:activity-->"
 END = "<!--END_SECTION:activity-->"
 LEVELS = ("NONE", "FIRST_QUARTILE", "SECOND_QUARTILE", "THIRD_QUARTILE", "FOURTH_QUARTILE")
-THEMES = {
-    "light": {
-        "bg": "#ffffff", "border": "#d1d9e0", "text": "#1f2328", "muted": "#59636e",
-        "accent": "#1a7f37", "cells": ("#eff2f5", "#9be9a8", "#40c463", "#30a14e", "#216e39"),
-    },
-    "dark": {
-        "bg": "#0d1117", "border": "#30363d", "text": "#f0f3f6", "muted": "#a2aab5",
-        "accent": "#3fb950", "cells": ("#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"),
-    },
-}
 
 
 PROJECTS = {
@@ -154,9 +152,6 @@ def render_svg(activity, theme, updated):
     # One SVG, with CSS theme switching inside the image. No duplicate <picture> sources.
     palette = {key: f"var(--{key})" for key in ("bg", "border", "text", "muted", "accent")}
     palette["cells"] = tuple(f"var(--cell{i})" for i in range(5))
-    def variables(name):
-        values = THEMES[name]
-        return ";".join(f"--{key}:{values[key]}" for key in ("bg", "border", "text", "muted", "accent")) + ";" + ";".join(f"--cell{i}:{color}" for i, color in enumerate(values["cells"]))
     calendar = activity["contributionCalendar"]
     start = calendar["weeks"][0]["contributionDays"][0]["date"]
     end = calendar["weeks"][-1]["contributionDays"][-1]["date"]
@@ -165,16 +160,20 @@ def render_svg(activity, theme, updated):
         '<title id="title">GitHub contribution activity</title>',
         f'<desc id="desc">{calendar["totalContributions"]:,} contributions from {start} to {end}. '
         f'Last successful update: {escape(updated)}. Each square represents one day.</desc>',
-        '<style>svg{' + variables(theme) + '}@media(prefers-color-scheme:dark){svg{' + variables("dark") + '}}text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}</style>',
-        f'<rect x="0.5" y="0.5" width="899" height="305" rx="12" fill="{palette["bg"]}" stroke="{palette["border"]}"/>',
+        '<style>' + tokens.theme_css(CHART_VARS, cells=True)
+        + 'text{font-family:' + tokens.SANS + '}'
+        + '.s{font-family:' + tokens.SERIF + '}'
+        + '.l{letter-spacing:1.6px}</style>',
+        f'<rect x="0.5" y="0.5" width="899" height="305" rx="8" fill="{palette["bg"]}" stroke="var(--rule)"/>',
         f'<rect x="28" y="26" width="3" height="24" rx="1.5" fill="{palette["accent"]}"/>',
     ]
 
-    def text(x, y, content, size=12, color=None, weight=400):
-        parts.append(f'<text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" '
+    def text(x, y, content, size=12, color=None, weight=400, cls=""):
+        name = f' class="{cls}"' if cls else ""
+        parts.append(f'<text x="{x}" y="{y}"{name} font-size="{size}" font-weight="{weight}" '
                      f'fill="{color or palette["muted"]}">{escape(str(content))}</text>')
 
-    text(43, 43, "Contribution activity", 18, palette["text"], 600)
+    text(43, 43, "Contribution activity", 17, palette["text"], 400, "s")
     text(610, 42, f"{start} — {end}", 12)
     days = [day for week in calendar["weeks"] for day in week["contributionDays"]]
     metrics = (
@@ -185,8 +184,8 @@ def render_svg(activity, theme, updated):
     )
     for index, (label, count) in enumerate(metrics):
         x = 32 + index * 218
-        text(x, 88, f"{count:,}", 25, palette["text"], 600)
-        text(x, 109, label)
+        text(x, 88, f"{count:,}", 25, palette["text"], 400, "s")
+        text(x, 109, label.upper(), 10, None, 600, "l")
     # A fixed pitch keeps all 52–54-week calendars inside the same viewBox.
     grid_x, grid_y, pitch = 80, 156, 14
     for weekday, label in ((1, "Mon"), (3, "Wed"), (5, "Fri")):

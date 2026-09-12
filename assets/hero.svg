@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" role="img" aria-labelledby="t d">
+<title id="t">Krishna Kapoor</title>
+<desc id="d">Krishna Kapoor, software engineering, cybersecurity and DevSecOps. A code change travels from commit through CI and a gateway into a Python service and a Java service, which share a validation assumption, and on to production.</desc>
+<style>svg{--paper:#ffffff;--ink:#14181d;--dim:#6a737f;--rule:#dde1e7;--rule-soft:#eef0f3;--line:#9aa4b0;--node:#ffffff;--grid:#eef1f5;--accent:#1a7f37;--warn:#9a6700}@media(prefers-color-scheme:dark){svg{--paper:#0d1117;--ink:#e9edf2;--dim:#8b95a2;--rule:#2a313a;--rule-soft:#20262e;--line:#56636f;--node:#151b23;--grid:#171e26;--accent:#3fb950;--warn:#d29922}}.dot{animation:trav 5.4s linear infinite}@keyframes trav{0%{transform:translate(420px,62px);opacity:0}7%{opacity:1}24%{transform:translate(527px,62px)}46%{transform:translate(634px,110px)}68%{transform:translate(741px,166px)}92%{transform:translate(838px,110px);opacity:1}100%{transform:translate(838px,110px);opacity:0}}.ring{animation:ring 3.2s ease-out infinite}@keyframes ring{0%{r:5;opacity:.85}70%{r:17;opacity:0}100%{r:17;opacity:0}}.core{animation:core 3.2s ease-in-out infinite}@keyframes core{0%,100%{opacity:.5}50%{opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M0 0 L8 4 L0 8 z" fill="var(--line)"/></marker>
+<pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse">
+<path d="M24 0 L0 0 0 24" fill="none" stroke="var(--grid)" stroke-width="1"/></pattern>
+</defs>
+<rect x="0" y="0" width="900" height="250" fill="var(--paper)"/>
+<rect x="372" y="14" width="528" height="212" fill="url(#g)"/>
+<rect x="0" y="0" width="900" height="2" fill="var(--ink)"/>
+<rect x="0" y="249" width="900" height="1" fill="var(--rule)"/>
+<text x="0" y="26" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" letter-spacing="3.4" font-weight="600" fill="var(--accent)">AHMEDABAD, INDIA</text>
+<text x="0" y="86" font-family="Iowan Old Style,Palatino Linotype,Palatino,Georgia,serif" font-size="47" letter-spacing="-1.1" fill="var(--ink)">Krishna Kapoor</text>
+<rect x="0" y="104" width="336" height="1" fill="var(--rule)"/>
+<text x="0" y="126" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.7" font-weight="600" fill="var(--dim)">SOFTWARE ENGINEERING &#183; CYBERSECURITY &#183; DEVSECOPS</text>
+<text x="0" y="164" font-family="Iowan Old Style,Palatino Linotype,Palatino,Georgia,serif" font-size="18" font-style="italic" fill="var(--ink)">Understanding connected code.</text>
+<text x="0" y="190" font-family="Iowan Old Style,Palatino Linotype,Palatino,Georgia,serif" font-size="18" font-style="italic" fill="var(--ink)">Validating software. Engineering</text>
+<text x="0" y="216" font-family="Iowan Old Style,Palatino Linotype,Palatino,Georgia,serif" font-size="18" font-style="italic" fill="var(--ink)">secure systems.</text>
+<g stroke="var(--line)" stroke-width="1.4" fill="none">
+<path d="M458 62 H487" marker-end="url(#a)"/>
+<path d="M565 68 L594 98" marker-end="url(#a)"/>
+<path d="M672 104 L701 70" marker-end="url(#a)"/>
+<path d="M672 118 L701 152" marker-end="url(#a)"/>
+<path d="M779 60 L798 96" marker-end="url(#a)"/>
+<path d="M779 160 L798 124" marker-end="url(#a)"/>
+</g>
+<path d="M741 68 V152" stroke="var(--warn)" stroke-width="1.4" stroke-dasharray="4 4" fill="none"/>
+<path d="M741 180 V196" stroke="var(--warn)" stroke-width="1" stroke-dasharray="3 3" fill="none"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+<rect x="382" y="48" width="76" height="28" rx="3" fill="var(--node)" stroke="var(--line)"/><text x="420" y="66" text-anchor="middle" fill="var(--ink)">commit</text>
+<rect x="489" y="48" width="76" height="28" rx="3" fill="var(--node)" stroke="var(--line)"/><text x="527" y="66" text-anchor="middle" fill="var(--ink)">ci</text>
+<rect x="596" y="96" width="76" height="28" rx="3" fill="var(--node)" stroke="var(--line)"/><text x="634" y="114" text-anchor="middle" fill="var(--ink)">gateway</text>
+<rect x="703" y="40" width="76" height="28" rx="3" fill="var(--node)" stroke="var(--line)"/><text x="741" y="58" text-anchor="middle" fill="var(--ink)">svc:py</text>
+<rect x="703" y="152" width="76" height="28" rx="3" fill="var(--node)" stroke="var(--line)"/><text x="741" y="170" text-anchor="middle" fill="var(--ink)">svc:java</text>
+<rect x="800" y="96" width="76" height="28" rx="3" fill="var(--node)" stroke="var(--line)"/><text x="838" y="114" text-anchor="middle" fill="var(--ink)">prod</text>
+</g>
+<circle class="ring" cx="741" cy="110" r="5" fill="none" stroke="var(--warn)" stroke-width="1.6"/>
+<circle class="core" cx="741" cy="110" r="4" fill="var(--warn)"/>
+<text x="741" y="208" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="1.4" fill="var(--warn)">SHARED VALIDATION ASSUMPTION</text>
+<circle class="dot" cx="0" cy="0" r="4.5" fill="var(--accent)"/>
+</svg>
