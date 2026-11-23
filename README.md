@@ -106,7 +106,7 @@ I'm particularly interested in validating open-source contributions — includin
 
 <!--START_SECTION:updated-->
 
-<sub>Repository data refreshed 2026-11-22 19:45 UTC. Commit counts include all authors on each default branch. Last commit dates link to the changes.</sub>
+<sub>Repository data refreshed 2026-11-23 07:46 UTC. Commit counts include all authors on each default branch. Last commit dates link to the changes.</sub>
 
 <!--END_SECTION:updated-->
 
@@ -238,7 +238,7 @@ It consumes what SAST, SCA, and IaC tools already produce rather than replacing 
 
 <!--START_SECTION:activity-->
 
-Public repositories ranked by commit contributions, 2025-11-16 to 2026-11-22. Profile automation is excluded.
+Public repositories ranked by commit contributions, 2025-11-23 to 2026-11-23. Profile automation is excluded.
 
 | Repository | Commit contributions |
 | :--- | ---: |
@@ -247,7 +247,7 @@ Public repositories ranked by commit contributions, 2025-11-16 to 2026-11-22. Pr
 | [krishna0605/ThreatForge](https://github.com/krishna0605/ThreatForge) | 94 |
 | [krishna0605/vulnscanner](https://github.com/krishna0605/vulnscanner) | 92 |
 | [krishna0605/supabase-harbor](https://github.com/krishna0605/supabase-harbor) | 77 |
-| [krishna0605/AI-codemate-](https://github.com/krishna0605/AI-codemate-) | 74 |
+| [krishna0605/AI-codemate-](https://github.com/krishna0605/AI-codemate-) | 71 |
 
 <!--END_SECTION:activity-->
 
